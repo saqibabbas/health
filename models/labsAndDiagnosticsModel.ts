@@ -13,16 +13,7 @@ export interface LabAndDiagnosticsDetailsResults {
     id: string;
     code: LabAndDiagnosticsDetailsCode;
     valueQuantity: LabAndDiagnosticsDetailsValueUnit;
-    referenceRange?: {
-        low: {
-            unit: string;
-            value: string;
-        }
-        high: {
-            unit: string;
-            value: string;
-        }
-    }
+    referenceRange?: LabAndDiagnosticsDetailsRange;
 }
 
 export interface LabAndDiagnosticsDetailsCode  {
