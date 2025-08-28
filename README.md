@@ -5,6 +5,8 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 Run the development server with these commands in sequence:
 
 ```bash
+git clone https://github.com/saqibabbas/health/
+
 npm install
 
 npm run build
